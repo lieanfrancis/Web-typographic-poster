@@ -1,0 +1,452 @@
+
+body{
+	background-color:#B599A2;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/*The Letter R */
+
+.r-line { 
+	display: grid ;
+	width:2.5px;
+	height:100px; 
+	background-color:pink ;
+	border-radius:85px 85px 85px 85px;
+	padding: 20px;
+	top: 75px;
+	left:55px;
+	margin:20px;
+	position: absolute;
+	 }
+
+#r-bubble {
+	height:100px; 
+	width: 145px;
+	background-color: pink;
+	border-radius:25px 75px 75px 25px;
+	position: absolute;
+	top:5.5% ;
+	left:75px ;
+
+}
+#r-circle {
+	display: grid;
+	width:75px ;
+	height:55px ;
+	background-color:#B599A2;
+	border-radius:25px 75px 75px 25px ;
+	margin:35px ;
+	top: 30px;
+	left: 80px;
+	position: absolute;
+	align items: center;
+	
+}
+#r-diagonal { 
+	display: grid;
+	width:2.5px;
+	height: 100px;
+	background-color:pink;
+	border-radius: 25px 25px 25px 25px;
+	transform:rotate(-50deg);
+	padding: 20px;
+	top: 90px;
+	left: 130px;
+	margin: 20px;
+	position: absolute;
+	align-items: center;
+
+	 }
+/* Letter H */
+
+.h-line { 
+	height:125px; 
+	width: 125px;
+	background-color: pink;
+	border: 10px solid transparent;
+	border-radius:75px 75px 75px 75px;
+	position: absolute;
+	top:75px ;
+	Left:225px ;
+ }
+
+#h-negative-space { 
+	display: grid;
+	width:25px;
+	height:125px;
+	background-color:#B599A2;
+	border-radius: 85px 85px 85px 85px;
+	padding: 20px;
+	top: 45px;
+	left: 245px;
+	margin: 20px;
+	position: absolute;
+	align-items: center;
+}
+#h-circle {
+	display: grid;
+	width:50px ;
+	height:50px ;
+	background-color:#845563  ;
+	border-radius:75px ;
+	margin:35px ;
+	top: 100px;
+	left: 239px;
+	position: absolute;
+	align items: center;
+
+	}
+
+/* Letter O */
+
+.o {
+	height:125px; 
+	width: 125px;
+	background-color: pink;
+	border: 10px solid transparent;
+	border-radius:85px 85px 85px 85px;
+	position: absolute;
+	top: 75px;
+	left: 395px ;
+}
+
+/* Letter D */
+
+.d-circle {
+
+	display: grid ;
+	width:15px;
+	height:55px; 
+	background-color:#B599A2 ;
+	border-radius:25px 85px 85px 25px;
+	padding: 20px;
+	top: 80px;
+	left: 585px;
+	margin:20px;
+	position: absolute;
+	
+}
+#d-line {
+
+	display: grid ;
+	width:75px;
+	height:100px; 
+	background-color: pink;
+	border-radius:25px 85px 85px 25px;
+	padding: 20px;
+	top: 55px;
+	left: 550px;
+	margin:20px;
+	position: absolute
+
+}
+
+.title {
+	width: 100%;
+	margin-left: 35%;
+	align-items: center;
+	text-align: center;
+	padding-top: 20%;
+
+}
+#top-title{
+	width: 100%;
+	margin: auto;
+	align-items: left;
+	text-align: left;
+	padding-top: 20%;
+	}
+
+/* Letter E */
+
+.e-line {
+	display: grid ;
+	width:100px;
+	height:100px; 
+	background-color: pink;
+	border-radius:75px 75px 75px 75px;
+	padding: 20px;
+	top: 55px;
+	left: 685px;
+	margin:20px;
+	position: absolute;
+}
+
+#e-negative-space {
+
+	display: grid ;
+	width:80px;
+	height:80px; 
+	background-color: #B599A2;
+	border-radius:85px 85px 75px 75px;
+	padding: 20px;
+	top: 55px;
+	left: 730px;
+	margin:20px;
+	position: absolute;
+}
+#e-circle {
+	display: grid;
+	width:50px ;
+	height:50px ;
+	background-color:#845563  ;
+	border-radius:75px ;
+	margin:35px ;
+	top: 85px;
+	left: 730px;
+	position: absolute;
+	align items: center;
+
+}
+
+/* Letter I */
+
+.i-line { 
+	height:100px; 
+	width: 100px;
+	background-color: pink;
+	border: 10px solid transparent;
+	border-radius:75px 75px 75px 75px;
+	position: absolute;
+	top: 300px;
+	left:235px ;
+	}
+
+#i-negative-space-one {
+	display: grid;
+	width: 15px;
+	height: 50px;
+	background-color:#B599A2;
+	border-radius: 85px 85px 85px 85px;
+	padding: 20px;
+	top: 295px;
+	left: 210px;
+	margin: 20px;
+	position: absolute;
+	align-items: center;
+}
+
+#i-negative-space-two {
+	display: grid;
+	width:15px;
+	height: 50px;
+	background-color:#B599A2;
+	border-radius: 85px 85px 85px 85px;
+	padding: 20px;
+	top: 295px;
+	left: 290px;
+	margin: 20px;
+	position: absolute;
+	align-items: center;
+}
+
+/* Letter S */
+
+.s-line {
+
+	height:100px; 
+	width: 100px;
+	background-color: pink;
+	border: 10px solid transparent;
+	border-radius:85px 85px 85px 85px;
+	position: absolute;
+	top:295px ;
+	left: 350px;
+}
+#s-circle-one {
+	display: grid;
+	width:80px ;
+	height:55px ;
+	background-color:#B599A2;
+	border-radius:15px 75px 75px 15px ;
+	margin:35px ;
+	top: 310px;
+	left: 310px;
+	position: absolute;
+	align items: center;
+}
+
+#s-circle-two {
+	display: grid;
+	width:80px ;
+	height:55px ;
+	background-color:#B599A2;
+	border-radius:75px 15px 15px 75px ;
+	margin:35px;
+	top: 255px;
+	left: 370px;
+	position: absolute;
+	align items: center;
+}
+
+/* Letter L */
+
+.l-line {
+	display: grid ;
+	width:85px;
+	height:100px; 
+	background-color:pink ;
+	border-radius:25px 85px 25px 25px;
+	padding: 20px;
+	top: 255px;
+	left: 460px;
+	margin:20px;
+	position: absolute;
+}
+
+#l-negative-space {
+	display: grid ;
+	width:80px;
+	height:90px; 
+	background-color: #B599A2;
+	border-radius:75px 75px 25px 75px;
+	padding: 20px;
+	top: 255px;
+	left: 490px;
+	margin:20px;
+	position: absolute;
+
+}
+
+/* Letter A */
+
+.a{ 
+
+	
+	height:100px; 
+	width: 100px;
+	background-color: pink;
+	border: 10px solid transparent;
+	border-radius:75px 75px 25px 25px;
+	position: absolute;
+	left: 600px;
+	top: 295px;
+}
+
+#a-negative-space {
+	display: grid;
+	width:25px;
+	height: 75px;
+	background-color:#B599A2;
+	border-radius: 75px 75px 25px 25px;
+	padding: 20px;
+	top: -5px;
+	left:-2px;
+	margin: 20px;
+	position: absolute;
+	align-items: center;
+}
+#a-circle {
+	display: grid;
+	width:50px ;
+	height:50px ;
+	background-color:#845563  ;
+	border-radius:75px ;
+	margin:35px ;
+	top: 15px;
+	left: -10px;
+	position: absolute;
+	align items: center;
+}	
+/* Letter N */
+
+.n-line {
+	height:100px; 
+	width: 100px;
+	background-color: pink;
+	border: 10px solid transparent;
+	border-radius:75px 75px 25px 25px;
+	position: absolute;
+	top:295px;
+	left:735px ;
+
+}
+#n-negative-space { 
+	display: grid;
+	width:25px;
+	height: 100px;
+	background-color:#B599A2;
+	border-radius: 75px 75px 25px 25px;
+	padding: 20px;
+	left: 740px;
+	top: 300px;
+	margin: 20px;
+	position: absolute;
+	align-items: center;
+	 }
+
+/* Letter D */
+
+.d-circle2 {
+
+	display: grid ;
+	width:15px;
+	height:55px; 
+	background-color:#B599A2 ;
+	border-radius:25px 85px 85px 25px;
+	padding: 20px;
+	top: 280px;
+	left: 910px;
+	margin:20px;
+	position: absolute;
+	
+}
+
+#d-line2 {
+
+	display: grid ;
+	width:75px;
+	height:100px; 
+	background-color: pink;
+	border-radius:25px 85px 85px 25px;
+	padding: 20px;
+	top: 255px;
+	left: 875px;
+	margin:20px;
+	position: absolute
+
+}
+
+#bottom-title{
+	width: 100%;
+	margin: auto;
+	align-items: left;
+	text-align: left;
+	padding-bottom: 20%;
+	}
+
+#container1 { 
+	width: 100%;
+	margin: auto;
+	align-items: left;
+	text-align: left;
+	padding-bottom:  50%;
+
+ }
+
+ #container2{
+ 	width: 100%;
+	margin: auto;
+	align-items: left;
+	text-align: left;
+	padding-bottom:  50%;
+ }
+
+ #container3{
+
+ 	width: 100%;
+	margin: auto;
+	align-items: left;
+	text-align: left;
+	padding-bottom:  50%;
+ }
+
+ #container4{
+ 	width: 100%;
+	margin: auto;
+	align-items: left;
+	text-align: left;
+	padding-bottom:  50%;
+ }
